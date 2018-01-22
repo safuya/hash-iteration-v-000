@@ -7,7 +7,5 @@
 # }
 
 def select_winner(passengers)
-  if passengers['suite_a'][0] == "A"
-    return passengers['suite_a']
-  end
+  passengers['suite_a'] if passengers['suite_a'][0] == "A"
 end
